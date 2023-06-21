@@ -1,4 +1,4 @@
-FROM ubuntu-minimal:20.04
+FROM ubuntu:20.04
 
 # Copia o arquivo buildpack-run.sh para o contêiner
 COPY buildpack-run.sh /buildpack-run.sh
