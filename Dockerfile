@@ -1,5 +1,9 @@
 FROM ubuntu:20.04
 
+# Instala o ffmpeg
+RUN apt-get update && \
+    apt-get install -y ffmpeg
+
 # Copia o arquivo buildpack-run.sh para o contêiner
 COPY buildpack-run.sh /buildpack-run.sh
 
