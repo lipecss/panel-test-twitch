@@ -6,4 +6,4 @@ ffmpeg -re \
 -preset fast -vb 3000k -pix_fmt rgb24 \
 -pix_fmt yuv420p \
 -f flv \
-rtmp://sao.contribute.live-video.net/app/live_424377843_DA3KycVHZfx880n1gamtnmZEKHXUQB
+rtmp://sao.contribute.live-video.net/app/live_424377843_rlcvD5ZvT7AVfAhzjUGLrhVkmwHBUm
